@@ -2,12 +2,12 @@ module ld-rate-limiter
 
 go 1.14
 
-replace github.com/intheclouddan/launchdarkly-smi => /Users/danielobrien/Projects/ld-rate-limiter/launchdarkly-smi
+//replace github.com/intheclouddan/launchdarkly-smi => /Users/danielobrien/Projects/ld-rate-limiter/launchdarkly-smi
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/envoyproxy/go-control-plane v0.9.5
-	github.com/intheclouddan/launchdarkly-smi v1.0.0
+	github.com/intheclouddan/ld-ratelimiter/launchdarkly-smi latest
 	github.com/kelseyhightower/envconfig v1.4.0 // indirect
 	github.com/launchdarkly/go-test-helpers v1.1.2 // indirect
 	github.com/lyft/gostats v0.4.0

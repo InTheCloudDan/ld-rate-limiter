@@ -1,10 +1,10 @@
-module example.com/intheclouddan/launchdarkly-smi/v2
+module gthub.com/intheclouddan/ld-rate-limiter/launchdarkly-smi/v2
 
 go 1.14
-replace github.com/intheclouddan/launchdarkly-smi => /Users/danielobrien/Projects/ld-rate-limiter/launchdarkly-smi
+//replace github.com/intheclouddan/launchdarkly-smi => /Users/danielobrien/Projects/ld-rate-limiter/launchdarkly-smi
 
 require (
-	github.com/intheclouddan/launchdarkly-smi v1.0.0
+	//github.com/intheclouddan/ld-rate-limiter/launchdarkly-smi latest
 	github.com/blang/semver v3.5.1+incompatible // indirect
 	github.com/envoyproxy/go-control-plane v0.9.5
 	github.com/google/uuid v1.1.1 // indirect

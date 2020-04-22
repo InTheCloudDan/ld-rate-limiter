@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/intheclouddan/launchdarkly-smi/cmd"
+import "github.com/intheclouddan/ld-rate-limiter/launchdarkly-smi/cmd"
 
 func main() {
 	cmd.Execute()
